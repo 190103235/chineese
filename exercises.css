@@ -1,0 +1,79 @@
+body{
+    background-color: #f3cfc6;
+    font-family: Comfortaa;
+}
+
+.logo{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: Brush Script MT;
+    color: white; 
+    stroke: rgb(201, 18, 79);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 55px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    font-size: 18px;
+}
+.letter{
+    font-weight: bold;
+    color: #f36479;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.a-letter{
+    display: flex;
+    align-items: center;
+}
+.b-letter{
+    display: flex;
+    align-items: center;
+}
+
+.image-side{
+    height: 200px;
+}
+input{
+    background-color: transparent;
+    border-width: 0 0 2px;
+    border-color: black;
+    height: 20px;
+    width: 100px;
+    margin-top: 15px;
+}
+.text-side{}
+.images2{
+    margin-left: 150px;
+    margin-top: -70px;
+}
+button{
+    background-color: #FFB6C1;
+    color: white;
+    font-size: 1.3rem;
+    height: 2em;
+    width: 5em;
+    border-radius: 10px;
+    border-color: rgb(95, 0, 32);
+    margin-left: 20em;
+    border-width: thin;
+}
+h3{
+text-align: center;
+}
+.exercise-img{
+    margin-top: 20px;
+    margin-left: 34%;
+}

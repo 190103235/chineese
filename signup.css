@@ -1,0 +1,73 @@
+body{
+    margin: 0;  
+    background-color: #FFB6C1;
+    font-family: Jost;
+   }
+   main{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
+   .right{
+       height: 657px;
+       background: linear-gradient(#f8d6dc88, #fde6ea93), url("login.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .left{
+       text-align: center;
+       
+   }
+   .form{
+       background-color: white;
+       width: 450px;
+       height: 530px;
+       margin: -5px 100px;
+   }
+   .logo{
+       cursor: pointer;
+       margin-top: 25px;
+       margin-bottom: 0;
+       text-decoration: none;
+       font-size: 3rem;
+       font-family: Brush Script MT;
+       color: white; 
+       stroke: rgb(201, 18, 79);
+   }
+   h3{
+       background-color: #F6F6F6;
+       height: 50px;
+       font-size: 30px;
+       padding-top: 15px;
+       font-weight: 800;
+   }
+   button{
+       background-color: #FFB6C1;
+       color: black;
+       font-size: 1.3rem;
+       height: 2em;
+       width: 6em;
+       border-radius: 10px;
+       border-color: rgb(95, 0, 32);
+       border-width: thin;
+       font-family: 'Times New Roman', Times, serif;
+       text-transform: uppercase;
+       margin-top: 50px;
+   }
+   
+   /* .label{
+       font-weight: bold;
+       text-align: left;
+       margin-left: 70px;
+       font-size: 20px;
+       padding-top: 50px;
+   } */
+   input{
+       border: 1px solid #cac8c8;
+       width: 300px;
+       height: 30px;
+       margin-top: 30px;
+   }
+   :placeholder-shown{
+       padding-left: 10px;
+       font-size: 16px;
+   }
